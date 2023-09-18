@@ -25,7 +25,7 @@ const InputLine = ({ setHistory, writeLine, setInputDisabled, currPrefix, setCur
 				}
 				
 			default:
-				writeLine("", "<span class='gray'>Unknown command. Visit <a class='yellow' target='_blank' href='https://github.com/crystaltine/asp_first'>Windows -1 README</a> for terminal help.</span>");
+				writeLine("", "<span class='gray'>Unknown command. Visit <a class='yellow' target='_blank' href='https://github.com/crystaltine/windowsminus1'>Windows -1 README</a> for terminal help.</span>");
 				return false;
 		}
 	}

@@ -31,7 +31,8 @@ const StartMenu = (props) => {
         <img src={require('../../assets/icons8-windows-11-144.png')} alt='start' style={{ width: '50px', height: '50px' }} />
         <h2>Windows -1</h2>
       </div>
-      <p>If I had more time I would definitely add more functionality, including a start menu :(</p>
+      <p>If I had felt like spending more time on this I would definitely add more functionality, including a start menu :(</p>
+      <p>See the readme and repository <a href='https://github.com/crystaltine/windowsminus1' target='_blank' rel="noreferrer">here</a></p>
       <h3>But if this is the first app you opened, go check out the other ones! They actually have functionality.</h3>
       <p>Scroll down!</p>
       <br />
