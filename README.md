@@ -8,7 +8,7 @@
 System Files are stored in localstorage.
 
 ### Terminal:
-Terminal has very little functionality, since I decided i had spent way to long on this project and didn't want to spend any more time. The terminal has a 'clear' command and a 'notepad' command (which opens the notepad process) - you can also use 'notepad <path>' to open a specific text file, but the **absolute path** must be given. 
+Terminal has very little functionality, since I decided i had spent way to long on this project and didn't want to spend any more time. The terminal has a 'clear' command and a 'notepad' command (which opens the notepad process) - you can also use 'notepad &lt;path&gt;' to open a specific text file, but the **absolute path** must be given. 
 
 ### Features and functionality:
 + Open a window and move it around
