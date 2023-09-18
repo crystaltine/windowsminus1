@@ -1,4 +1,4 @@
-### Minimal simulation/ripoff of Microsott Windows, including:
+### Minimal simulation/ripoff of Microsoft Windows, including:
 
 + Windows (as in the things you can open and close not the OS)
 + A terminal with a few commands
