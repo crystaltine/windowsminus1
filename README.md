@@ -1,9 +1,9 @@
-### Minimal simulation/ripoff of Microsoft Windows, including:
+# Microsoft Windows Ripoff, including:
 
-+ Windows (as in the things you can open and close not the OS)
-+ A terminal with a few commands
-+ Simple text editor, used to write and read files
-+ File system and file explorer
++ Bad Windows ripoffs (as in the things you can open and close not the OS but its also a ripoff of the OS)
++ Bad Powershell ripoff with a few commands
++ Bad Notepad ripoff, used to write and read files
++ Bad File Explorer ripoff
 
 System Files are stored in localstorage.
 
@@ -24,20 +24,22 @@ Terminal has very little functionality, since I decided i had spent way to long 
 + You can set absolute paths for the file explorer using the top bar.
     - Paths are formatted like /folder1/folder2/file.txt or /folder1/
     - The input bar will autocorrect you if a string is improperly formatted.
+ 
+if you open console yes the library of babel is being generated in there every two seconds but whatever
 
 ### Things I wanted to add but didn't have time for:
++ Better styling bruh
 + Renaming files - recursively updating paths took too long and I just decided to not include it
-+ cd, ls, cat, etc. commands to the terminal
-+ Opening multiple windows at a time
++ cd, ls, cat, mkdir, etc. commands to the terminal
++ Opening multiple windows of the same process at a time
 + Maybe a lock screen and a login system?
 + Right click menus, options, etc.
 + Other apps like clock, calculator, settings, etc.
 
 ### Technology & Dependencies:
-+ ReactJS 18.2 for appearance and JS for handling all the logic 
++ ReactJS 18.2 for appearance and JS for handling all the logic
+    - webpack, etc. (Everything that comes with cra)
     - (No Typescript (oops), Tailwind, etc.)
-+ npm gh-pages for deployment
-
-I don’t feel like there is a need for a backend server here since 1. I don’t really want to keep one running and 2. Using Javascript on the client side is enough for the functionality I need.
++ npm gh-pages (dev dependency) for deployment
 
 No other non-base packages used.
