@@ -1,0 +1,30 @@
+:root {
+  --primaryColorBright: rgb(98, 210, 34);
+  --primaryColorDark: rgb(57, 164, 59);
+  --secondaryColorBright: rgb(46, 231, 237);
+  --secondaryColorDark: rgb(58, 179, 197);
+  --terminalBG: rgb(18, 19, 21);
+  --lightTerminalBG: rgb(25, 27, 29);
+
+  --primaryGradient: linear-gradient(90deg, var(--primaryColorBright), var(--primaryColorDark));
+  --secondaryGradient: linear-gradient(90deg, var(--secondaryColorBright), var(--secondaryColorDark));
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--terminalBG);
+  color:white;
+  font-family: consolas, monospace;
+  font-size: 16px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

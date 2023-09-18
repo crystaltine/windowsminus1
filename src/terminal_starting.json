@@ -1,0 +1,18 @@
+[
+    {
+        "prefix": "",
+        "input" : "<span class='magenta text-big'>Windows -1 PowerShell</span>"
+    },
+    {
+        "prefix": "",
+        "input" : "Copyright Never, UnMicrosoft tm."
+    },
+    {
+        "prefix": "",
+        "input" : "<br />"
+    },
+    {
+        "prefix": "",
+        "input" : "Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows"
+    }
+]

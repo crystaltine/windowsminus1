@@ -1,0 +1,139 @@
+.terminal {
+    background-color: var(--terminalBG);
+    min-height: 100%; width: 100%;
+    color: white;
+    font-family: consolas, monospace;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.terminal-input {
+    background-color: var(--terminalBG);
+    outline: none;
+    border: none;
+    cursor: default;
+    caret-shape: block;
+    color: white;
+    font-family: consolas, monospace;
+    font-size: 16px;
+    min-width: 300px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.prefix-style {
+    color: rgb(44, 190, 239);
+    font-weight: 500;
+    white-space: nowrap;
+}
+.terminal-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Prebuilt colors */
+.red {
+    color: rgb(237, 104, 104);
+}
+.green {
+    color: rgb(98, 210, 34);
+}
+.blue {
+    color: rgb(46, 231, 237);
+}
+.yellow {
+    color: rgb(255, 255, 121);
+}
+.orange {
+    color: rgb(255, 184, 108);
+}
+.purple {
+    color: rgb(115, 61, 139);
+}
+.magenta {
+    color: rgb(255, 90, 255);
+}
+.cyan {
+    color: rgb(121, 255, 255);
+}
+.white {
+    color: rgb(255, 255, 255);
+}
+.black {
+    color: rgb(0, 0, 0);
+}
+.gray {
+    color: rgb(128, 128, 128);
+}
+.light-gray {
+    color: rgb(192, 192, 192);
+}
+.dark-gray {
+    color: rgb(64, 64, 64);
+}
+.brown {
+    color: rgb(128, 64, 0);
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+.weight-600 {
+    font-weight: 600;
+}
+.weight-700, .bold {
+    font-weight: 700;
+}
+.weight-800 {
+    font-weight: 800;
+}
+.weight-900 {
+    font-weight: 900;
+}
+
+.italic {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-xxl, .text-huge {
+    font-size: 40px;
+}
+.text-xl, .text-large {
+    font-size: 30px;
+}
+.text-l, .text-big {
+    font-size: 24px;
+}
+.text-m, .text-medium {
+    font-size: 20px;
+}
+.text-n, .text-normal {
+    font-size: 16px;
+}
+.text-s, .text-small {
+    font-size: 14px;
+}
+.text-xs, .text-tiny {
+    font-size: 12px;
+}
+
+.margin-bottom-20px {
+    margin-bottom: 20px;
+}

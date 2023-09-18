@@ -1,0 +1,2 @@
+SVGRepo for icons: https://www.svgrepo.com/
+Stackoverflow, ChatGPT, Github Copilot for little code snippets and help
