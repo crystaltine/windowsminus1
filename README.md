@@ -1,5 +1,7 @@
 # Microsoft Windows Ripoff, including:
 
+[Try it out here](https://crystaltine.github.io/windowsminus1/)
+
 + Bad Windows ripoffs (as in the things you can open and close not the OS but its also a ripoff of the OS)
 + Bad Powershell ripoff with a few commands
 + Bad Notepad ripoff, used to write and read files
